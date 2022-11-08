@@ -27,4 +27,7 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 /*insertion sort*/
 void insertion_sort_list(listint_t **list);
+/*
+ * selection sort*/
+void selection_sort(int *array, size_t size);
 #endif
